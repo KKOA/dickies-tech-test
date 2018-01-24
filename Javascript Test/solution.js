@@ -1,3 +1,9 @@
+/*
+Description : Returns array of contain all the numbers from a complex structure.
+Author : Keith Amoah
+Date : 23/01/2018
+*/
+
 var data =
 { "a": "text",
 "b": "1.00",
@@ -43,6 +49,7 @@ function findNumericHelper(obj, list)
   }
   return list;
 }
+// Display input and output
 console.log('data :')
 console.log('----------------------')
 console.log(data)
