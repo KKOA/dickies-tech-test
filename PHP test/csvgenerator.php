@@ -18,7 +18,7 @@ class CsvGenerator
      echo $this->$filename;
     }
     else {
-     $this->$filename= $filename = 'instructions'.date("Y").'.csv';
+     $this->$filename= $filename = 'payroll'.date("Y").'.csv';
     }
     // $this->filehandle = fopen($filename,'w');
     $this->filehandle = fopen($this->$filename,'w');
