@@ -11,5 +11,4 @@ See subfolder README.md for more information about the individual tech test.
   - README.md
   - csvgenerator.php
   - solution.PHP
-  - payroll2018.csv
 - README.MD
