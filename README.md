@@ -3,12 +3,12 @@
 See subfolder README.md for more information about the individual tech test.
 
 ## Folder Structure
-- Javascript
+- javascript
   - README.md
   - index.html
   - solution.js
-- PHP
+- php
   - README.md
-  - csvgenerator.php
-  - solution.PHP
+  - CsvGenerator.php
+  - solution.php
 - README.MD
