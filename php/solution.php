@@ -6,15 +6,14 @@ Date : 24/01/2018
 */
 
 
-require_once('csvgenerator.php');
-
+require_once('CsvGenerator.php');
+$filename = null;
 if(isset($argv[1]))
 {
   /* Allows user to specify the file they wish to read from by passing it as the second argument in command prompt.
  When not stated, use default filename. */
   $filename = $argv[1];
 }
-
 
 function is_weekend($mydate)
 {// Return true if date falls on saturday or sunday
@@ -23,7 +22,6 @@ function is_weekend($mydate)
 }
 
 $year = date('Y');
-$year = '2016';
 
 $date = new DateTime();
 $list =[];
