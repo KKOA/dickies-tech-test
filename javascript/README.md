@@ -1,4 +1,7 @@
 # Javascript tech test
+This is my solution to for the below requirement.
+Write a simple function to iterate over the following object and return an array of the number values:
+[sample input](https://github.com/KKOA/dickies-tech-test/blob/master/javascript/requirement.jpg)
 
 ## Assumptions
 Below are the lists of assumptions for  the tech challenge
