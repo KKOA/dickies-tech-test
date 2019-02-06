@@ -21,6 +21,7 @@ Below are the lists of assumptions for the tech challenge
 - The date format for both the salary payment date and bonus payment date
 - User can specify the name of the output file
 - Return records for all months of the current year
+- Bonuses run from February to January the following year. E.g. February 2018 - January 2019
 
 
 ## Requirements
@@ -42,10 +43,10 @@ If you want to change where the data is saved to, pass in the name as a second a
 **Do not include the file extension in the name.**
 
 ```
-php solution.php mypayroll
+php solution.php payroll
 ```
-The csv will be called mypayroll.csv instead of payroll2018.csv
+The csv will be called payroll.csv instead of payroll2018.csv
 
-## Future Enchanced
+## Future enhancements
 
 - Add functionality to catering for bank holidays
