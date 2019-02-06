@@ -31,7 +31,7 @@ After copying the Tech test folder, open your terminal/command prompt.
 Navigate to where you have installed the files.
 
 ```
-cd 'PHP test'
+cd 'php'
 php solution.php
 ```
 
@@ -42,7 +42,7 @@ If you want to change where the data is saved to, pass in the name as a second a
 **Do not include the file extension in the name.**
 
 ```
-php solution.php mypayroll.csv
+php solution.php mypayroll
 ```
 The csv will be called mypayroll.csv instead of payroll2018.csv
 
