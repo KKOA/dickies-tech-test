@@ -68,7 +68,7 @@ if(isset($argv[1]))
 	$filename = $argv[1];
 }
 
-$year = date('Y');
+$year = (int)date('Y');
 
 $date = new DateTime();
 
