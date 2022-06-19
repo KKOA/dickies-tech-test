@@ -25,7 +25,8 @@ Below are the lists of assumptions for the tech challenge
 
 
 ## Requirements
-This application was written on a machine running Mac Operating System and PHP Version 7.1.7. However the minimum requirement is a machine running PHP version 5.2 or later.
+This application was written on a machine running Windows Operating System and PHP Version 8.1.6. 
+However, the minimum requirement is a machine running PHP version 7.4 or later.
 
 ## How to run the application
 After copying the Tech test folder, open your terminal/command prompt.
